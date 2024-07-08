@@ -1,29 +1,3 @@
-; Jinwoo-Baseball.asm
-;
-; Welcome to Wagner Baseball Version 9-3!!
-; Written by Professor David Wagner
-; 
-; Improved by:
-; 	Student Members:
-; 		(Jinwoo Park)
-;
-; A project for the 8051 Microcontroller
-
-;=================================================================
-;=================================================================
-;                       DEFINED VALUES
-;=================================================================
-;=================================================================
-
-
-;*********************************************************************
-; Variables
-; Addresses in 8051 Memory of the Variables used by this program
-;********************************************************************
-
-
-; ================== LCD Variables ==================
-
 MOTOR_ADDR	EQU	0FFEFH
 MOTOR_COMMAND	EQU 20H
 LCD-Instr-Mem         EQU     30H    ; The instruction to be sent to the LCD
